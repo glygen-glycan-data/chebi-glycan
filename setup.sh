@@ -19,7 +19,7 @@ if [ ! -f kegg.txt ]; then
     ${PYGLY:-../PyGly}/scripts/glyres.py GlyTouCanNoCache allcrossrefs | fgrep kegg_glycan | awk '{print $3,$1}' > kegg.txt
 fi
 if [ ! -f gtc2chebi.pubchem.txt ]; then
-    ${PYGLY:-../PyGly}/scripts/glyres.py PubChemDownload allchebigtc | awk '{print $2,$1}'> gtc2chebi.pubchem.txt
+    ${PYGLY:-../PyGly}/scripts/glyres.py PubChemDownload allchebigtc > gtc2chebi.pubchem.txt
 fi
 
 
