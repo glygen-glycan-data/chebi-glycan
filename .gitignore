@@ -211,3 +211,5 @@ glyres.py
 pygly
 kegg.txt
 gtc2chebi.pubchem.txt
+chebi.obo.gz
+GNOme.obo
