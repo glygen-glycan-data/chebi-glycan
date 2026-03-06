@@ -1,0 +1,35 @@
+Header	Definition
+id	ChEBI identifier
+term	ChEBI term/name
+stars	ChEBI stars
+gtcacc	"Extracted GlyTouCan accession based on name, glytoucan, glygen, pubchem, kegg, glylookup_wurcs, glylookup_iupac column consensus"
+monocount	Monosaccharide count
+basecomposition	Base composition string
+composition	Composition string
+subsumed_by	"ChEBI id(s) from the table that immediately subsume (in the GNOme/glycan sense, no shortcuts) this ChEBI id (based on GlyTouCan accession)"
+chebi_isa	ChEBI id(s) from the table that are immediate ancestors (no shortcuts) in the ChEBI ontology
+level	GNOme characterization level of the glycan
+score	GNOme characterization score
+fully_determined	Whether the glycan is fully determined with the exception of reducing end anomer/ring information
+name	"GlyTouCan accession inferred from ChEBI name ""GlyTouCan <GTCACC>"""
+glytoucan	"GlyTouCan accession inferred from ChEBI database cross-reference ""glytoucan:<GTCACC>"""
+glygen	"GlyTouCan accession inferred from ChEBI database cross-reference ""glygen:<GTCACC>"""
+pubchem	GlyTouCan accession inferred from PubChem compounds linked to GlyTouCan accessions and ChEBI entries
+kegg	GlyTouCan accession inferred from KEGG-Glycan database cross-references (and GlyTouCan-sourced KEGG cross-references)
+glylookup_wurcs	GlyTouCan accession inferred by GlyLookup based on WURCS sequence in ChEBI entry
+glylookup_iupac	GlyTouCan accession inferred by GlyLookup based on IUPAC sequence in ChEBI name or synonym
+kegg.glycan	ChEBI cross reference to KEGG-Glycan accessions
+wurcs	WURCS sequence in ChEBI entry
+iupac	"IUPAC sequence in ChEBI entry, if parseable by GlyLookup (even if it doesn't resolve to GlyTouCan accession)"
+carbohydrate_and_derivitives	Distance from this ChEBI entry to ancestor ChEBI entry (-1 indicates not an ancestor)
+carbohydrate	Distance from this ChEBI entry to ancestor ChEBI entry (-1 indicates not an ancestor)
+polysaccharide	Distance from this ChEBI entry to ancestor ChEBI entry (-1 indicates not an ancestor)
+oligosaccharide	Distance from this ChEBI entry to ancestor ChEBI entry (-1 indicates not an ancestor)
+glycan	Distance from this ChEBI entry to ancestor ChEBI entry (-1 indicates not an ancestor)
+partially_defined_glycan	Distance from this ChEBI entry to ancestor ChEBI entry (-1 indicates not an ancestor)
+topology_glycan	Distance from this ChEBI entry to ancestor ChEBI entry (-1 indicates not an ancestor)
+composition_glycan	Distance from this ChEBI entry to ancestor ChEBI entry (-1 indicates not an ancestor)
+basecomposition_glycan	Distance from this ChEBI entry to ancestor ChEBI entry (-1 indicates not an ancestor)
+parents	ChEBI parents of this ChEBI entry (not parents-first files)
+parent_id	ChEBI id of parent ChEBI entry (parents-first files only)
+paretn_term	ChEBI term of parent ChEBI entry (parents-first files only)
