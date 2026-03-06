@@ -213,3 +213,9 @@ kegg.txt
 gtc2chebi.pubchem.txt
 chebi.obo.gz
 GNOme.obo
+.gtc.cache.bak
+.gtc.cache.dat
+.gtc.cache.dir
+chebi-togtc-gnome-parents-first.tsv
+chebi-togtc-gnome.tsv
+chebi-togtc.tsv
