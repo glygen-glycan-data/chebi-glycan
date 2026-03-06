@@ -106,11 +106,11 @@ class APIFrameworkClient:
         if self.nocache:
             param["nocache"] = 'true'
         res1 = self.request(request, param, **kwargs)
-        submit_result = res1.json()
         try:
+            submit_result = res1.json()
             task_id = submit_result[0][u"id"]
             return task_id
-        except TypeError:
+        except (TypeError,requests.RequestsJSONDecodeError):
             pass
         raise APISubmitError(submit_result)
 

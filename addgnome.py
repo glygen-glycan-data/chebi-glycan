@@ -38,7 +38,7 @@ for row in reader:
     try:
         gtcterm = gnome.get_term("GNO:"+gtcacc)
     except KeyError:
-        pass
+        continue
     chebi2gtc[chebiid].add(gtcterm)
 prog.done()
 
